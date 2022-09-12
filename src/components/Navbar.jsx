@@ -12,9 +12,11 @@ const Language = styled.span`
 `
 
 const SearchContainer = styled.div`
-  border: 1px solid lightgray;
+  border: 0.5px solid lightgray;
   display: flex;
   align-items: center;
+  left-margin: 25px;
+  padding: 5px
 `
 
 const Wrapper = styled.div`
