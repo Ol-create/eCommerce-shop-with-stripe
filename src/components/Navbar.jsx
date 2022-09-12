@@ -35,6 +35,10 @@ const Left = styled.div`
 `
 const Center = styled.div`
   flex: 1;
+  text-align: center;
+`
+const Icon = styled.h1`
+  font-weight: bold
 `
 const Right = styled.div`
   flex: 1;
@@ -51,7 +55,7 @@ const Navbar = ()=> {
                     <Search />
                     </SearchContainer>
                 </Left>
-                <Center>Center</Center>
+                <Center><Icon>CureWeb</Icon></Center>
                 <Right>Right</Right>
             </Wrapper> 
         </Container>
