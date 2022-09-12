@@ -18,6 +18,9 @@ const SearchContainer = styled.div`
   left-margin: 25px;
   padding: 5px
 `
+const Input = styled.input`
+  border: none;
+`
 
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -44,7 +47,7 @@ const Navbar = ()=> {
                 <Left>
                     <Language>En</Language>
                     <SearchContainer>
-                        Input
+                        <Input />
                     <Search />
                     </SearchContainer>
                 </Left>
